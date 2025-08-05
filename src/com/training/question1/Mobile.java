@@ -18,7 +18,10 @@ public class Mobile {
 		System.out.println("Mobile Brand " + brand);
 	}
 
-	String[] showFeatures(String[] features) {
-		return features;
+	void showFeatures(String[] features) {
+		System.out.println("Features of " + model + ":");
+		for (String feature : features) {
+			System.out.println("Feature: " + feature);
+		}
 	}
 }
